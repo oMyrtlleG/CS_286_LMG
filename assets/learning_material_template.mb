@@ -1,0 +1,33 @@
+LEARNING_MATERIAL_TEMPLATE = """
+Generate a complete learning material using the retrieved content below.
+
+Follow this structure strictly:
+
+I. COVER PAGE
+   - Title of the Material
+
+II. INTRODUCTION
+   - Purpose
+   - Learning Objectives/Outcomes
+
+III. CORE CONTENT (divide into modules or chapters)
+   For each module:
+       A. Overview
+       B. Key Concepts (definitions, theories, principles)
+       C. Detailed Explanations (examples, case studies, steps)
+       D. Quiz questions
+
+IV. SUPPLEMENTARY MATERIALS
+   - Recommended readings
+   - Glossary of important terms
+
+V. ASSESSMENT SECTION
+   - Practice Activities
+   - Reflection/essay prompts
+
+VI. SUMMARY / KEY TAKEAWAYS
+
+-------------------------
+Retrieved Source Material:
+{retrieved_text}
+"""
